@@ -8,7 +8,9 @@
       "Bash(git commit:*)",
       "Bash(npx vite:*)",
       "Bash(git remote:*)",
-      "WebFetch(domain:quizerquiel.github.io)"
+      "WebFetch(domain:quizerquiel.github.io)",
+      "Bash(curl -s https://quizerquiel.github.io/)",
+      "Bash(cp:*)"
     ]
   }
 }
