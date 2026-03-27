@@ -19,7 +19,8 @@
       "Bash(taskkill //PID 23196 //F)",
       "Bash(rm /c/Users/padil/Documents/PortafolioPersonal/assets/*)",
       "Bash(cp /c/Users/padil/Documents/PortafolioPersonal/dist/assets/* /c/Users/padil/Documents/PortafolioPersonal/assets/)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(rm:*)"
     ]
   }
 }
