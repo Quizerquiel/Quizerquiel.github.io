@@ -35,6 +35,26 @@ window.addEventListener('scroll', () => {
 });
 
 // ========================================
+// Mobile menu toggle
+// ========================================
+const navToggle = document.getElementById('navToggle');
+const navMenu = document.getElementById('navMenu');
+
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', () => {
+        navToggle.classList.toggle('active');
+        navMenu.classList.toggle('open');
+    });
+
+    navMenu.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            navToggle.classList.remove('active');
+            navMenu.classList.remove('open');
+        });
+    });
+}
+
+// ========================================
 // Typing effect
 // ========================================
 const typingEl = document.getElementById('typingText');
