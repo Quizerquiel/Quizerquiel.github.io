@@ -60,8 +60,8 @@ if (navToggle && navMenu) {
 const typingEl = document.getElementById('typingText');
 const phrases = [
     'Desarrollador Freelancer',
-    'Diseñador de Software',
-    'Especialista en C# & .NET',
+    'Desarrollador WordPress & PHP',
+    'Desarrollador .NET & C#',
     'Creador de Soluciones Web'
 ];
 let phraseIndex = 0;
