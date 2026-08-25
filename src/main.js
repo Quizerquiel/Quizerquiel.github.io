@@ -110,7 +110,7 @@ if (heroBg) {
 // Scroll reveal with stagger
 // ========================================
 const revealElements = document.querySelectorAll(
-    '.project-card, .timeline-item, .contact-card, .about-text, .about-stats, .service-card'
+    '.project-card, .timeline-item, .contact-card, .about-text, .about-stats, .service-card, .cert-card'
 );
 
 revealElements.forEach(el => el.classList.add('reveal'));
