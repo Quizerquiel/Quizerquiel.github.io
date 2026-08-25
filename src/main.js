@@ -59,10 +59,10 @@ if (navToggle && navMenu) {
 // ========================================
 const typingEl = document.getElementById('typingText');
 const phrases = [
-    'Desarrollador Freelancer',
-    'Desarrollador WordPress & PHP',
+    'Desarrollador Full-Stack',
     'Desarrollador .NET & C#',
-    'Creador de Soluciones Web'
+    'Desarrollador Angular & Next.js',
+    'Desarrollador Móvil Android'
 ];
 let phraseIndex = 0;
 let charIndex = 0;

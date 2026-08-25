@@ -543,7 +543,7 @@ img {
    ======================================== */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -663,6 +663,19 @@ img {
     background: var(--color-bg-alt);
     border-radius: 20px;
     color: var(--color-text-secondary);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    transition: transform var(--transition);
+}
+
+.project-link:hover {
+    transform: translateX(4px);
 }
 
 /* ========================================
